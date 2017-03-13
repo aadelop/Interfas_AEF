@@ -1,0 +1,70 @@
+#banner { 
+	height: 130px;
+    width: 1330px;
+    position: fixed;
+}
+#contenido {
+	margin-top: 190px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#navbar {
+	margin-top: 130px;
+}
+
+#login {
+	position: relative;
+    border-color: #B4ABAB !important;
+    border-radius: 0px;
+    border-width: 2px;
+
+}
+
+#dropdown {
+	background-color: #222;
+    border-color: #080808;
+    color: white;
+}
+
+#dropdown > li > a {
+	color: white !important;
+}
+
+#dropdown > li > a:hover {
+	color: black !important;
+}
+
+.badge {
+	color: #FFFFFF !important;
+    background-color: #CD0F0F !important;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+}
+
+hr {
+	border-top: 3px solid #4793DB !important;
+	margin-top: 10px !important;
+}
+
+.button-black {
+	color: white !important;
+	background-color: black !important;
+	border-color: #B4ABAB !important;
+}
+
+.button-grey {
+    color: #857777 !important;
+    background-color: #C2CBD5 !important;
+    border-color: #7A9EC1!important;
+	margin-top: 10px;
+	margin-left: 55px;
+	font-weight: bold !important;
+}
+
+.actualizar{
+	border-radius: 50px !important;
+}

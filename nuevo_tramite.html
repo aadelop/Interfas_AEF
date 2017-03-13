@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="static/css/main.css"/>
+		<link type="text/css" rel="stylesheet" href="static/css/bootstrap.css"/>
+		<script src="static/js/jquery.js"></script>
+		<script src="static/js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<img id="banner" src="static/imagen/banner.jpg" alt="banner"/> 
+		</div>
+
+		<nav class="navbar navbar navbar-inverse navbar-fixed-top" id="navbar">
+		  <div class="container">
+		  		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		  	<ul class="nav navbar-nav">
+		  		<li><a>Inicio</a></li>
+				<li class="dropdown">
+         			 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestión de Trámites <span class="caret"></span></a>
+         				 <ul class="dropdown-menu" id="dropdown">
+				            <li><a href="nuevo_tramite.html">Nuevo Trámite</a></li>
+				            <li><a href="manuales.html">Manual de Trámites</a></li>
+				         </ul>
+        		</li>
+		  	</ul>
+
+		  	<ul class="nav navbar-nav" style="float: right !important;">
+		  		<li><a>Avisos <span class="badge">42</span></a> </li>
+		  		<li><a href="perfil.html">Perfil</a></li>
+		  		<li><a href="home.html">Log Out</a></li>
+		  	</ul>
+		  	</div>
+		  </div>
+		</nav>
+
+		<div id="contenido">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-9">
+						<h2>Nuevo Trámite</h2>
+						<hr width="30%" align="left">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-11">
+						<div class="col-sm-6">
+							<p><label>Tipo de Trámite (*):</label></p>
+							<p><label>Sub-tipo de Trámite (*):</label></p>
+							<p><label>Oficina:</label></p>
+						</div>
+						<div class="col-sm-6">
+							INSTRUCCIONES
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
