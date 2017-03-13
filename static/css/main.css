@@ -70,8 +70,8 @@ hr {
 }
 
 .button-grey {
-    color: #857777 !important;
-    background-color: #C2CBD5 !important;
+    color: #4D4B4B !important;
+    background-color: rgba(141,164,186,0.45)  !important;
     border-color: #7A9EC1!important;
 	margin-top: 10px;
 	margin-left: 55px;
