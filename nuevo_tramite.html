@@ -6,6 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="static/css/bootstrap.css"/>
 		<script src="static/js/jquery.js"></script>
 		<script src="static/js/bootstrap.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body>
 		<div class="row">
@@ -50,13 +51,71 @@
 				<div class="row">
 					<div class="col-sm-offset-1 col-sm-11">
 						<div class="col-sm-6">
-							<p><label>Tipo de Trámite (*):</label></p>
-							<p><label>Sub-tipo de Trámite (*):</label></p>
-							<p><label>Oficina:</label></p>
+							<p><label class="label_grey">Tipo de Trámite (*):</label></p>
+								<div class="col-sm-offset-2 col-sm-12">
+									<div class="dropdown">
+									  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> Tipo de Trámite
+									  <span class="caret"></span></button>
+									  <ul class="dropdown-menu">
+									    <li><a href="#">Solicitud de Cédula Catastral</a></li>
+									    <li><a href="#">Solicitud de Carta de Residencia</a></li>
+									    <li><a href="#">Otros</a></li>
+									  </ul>
+									</div>
+								</div>
+							<br><br>
+							<p><label class="label_grey">Sub-tipo de Trámite (*):</label></p>
+								<div class="col-sm-offset-2 col-sm-12">
+									<div class="dropdown">
+									  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sub-tipo de Trámite
+									  <span class="caret"></span></button>
+									  <ul class="dropdown-menu">
+									    <li><a href="#">Edificación 1</a></li>
+									    <li><a href="#">Edificación 2</a></li>
+									    <li><a href="#">Edificación 3</a></li>
+									  </ul>
+									</div>
+								</div>
+							<br><br>
+							<p><label class="label_grey">Oficina:</label></p>
+								<div class="col-sm-offset-2 col-sm-12">
+									<div class="dropdown">
+									  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Oficina
+									  <span class="caret"></span></button>
+									  <ul class="dropdown-menu">
+									    <li><a href="#">Ofic. 25 piso 2</a></li>
+									    <li><a href="#">Ofic. 30 piso 3</a></li>
+									    <li><a href="#">Ofic. 40 piso 3</a></li>
+									  </ul>
+									</div>
+								</div>
 						</div>
 						<div class="col-sm-6">
-							INSTRUCCIONES
+							<div id="nue_tramite"><h4 class="ti_tramite">Recaudos de Trámites</h4></div>
+							<br>
+
+							<div class="panel panel-default" id="panel_tramite">
+							  <div class="panel-body">
+							    <ul>
+							    	<li>Tramite de ejemplo 1!</li>
+							    	<li>At vero eos et accusamus et iusto odio</li>
+							    	<li>dignissimos blanditiis praesentium voluptatum</li>
+							    	<li>deleniti atque corrupti, quosdolores et quas</li>
+							    	<li>molestias excepturi sint, obcaecati cupiditate non</li>
+							    	<li>provident, similique sunt in culpa, qui officina</li>
+							    	<li>deserunt mollitiaanimi</li>
+							    </ul>
+							  </div>
+							</div>
+
+							<div class="row">
+								<center>
+									<button type="button" class="btn btn-default button-grey cancelar"> <span class="glyphicon glyphicon-arrow-left"></span> Cancelar</button>
+									<button type="button" class="btn btn-default button-grey continuar">Continuar <span class="glyphicon glyphicon-arrow-right"></span></button>
+								</center>
+							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>

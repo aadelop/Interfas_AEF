@@ -81,3 +81,47 @@ hr {
 .actualizar{
 	border-radius: 50px !important;
 }
+
+.label_grey {
+	background-color: #4D4B4B;
+	width: 200px;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px !important;
+	color: white;
+}
+
+#nue_tramite {
+	background-color: rgba(141,164,186,0.45); /*0.45*/
+    width: 500px;
+    height: 40px;
+}
+
+.ti_tramite {
+	font-weight: bold;
+	color: #4D4B4B;
+	text-align: center;
+	vertical-align: middle;
+    float: left;
+    margin-left: 150px;
+}
+
+#panel_tramite {
+	border: 2px solid rgba(141,164,186,0.45) !important;
+	border-radius: 10px !important;
+}
+
+.cancelar {
+	border-radius: 50px !important;
+	margin-left: 0px !important;
+	background-color: rgba(141,164,186,0.45) !important;
+	color: #4D4B4B !important;
+}
+
+.continuar {
+	border-radius: 50px !important;
+	margin-left: 0px !important;
+	background-color: rgba(141,164,186,0.45) !important;
+	color: #4D4B4B !important;
+}
+
+  
