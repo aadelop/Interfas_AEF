@@ -45,6 +45,11 @@
 	height: 200px;
 }
 
+.img_icon {
+	width: 50px;
+	height: 55px;
+}
+
 hr {
 	border-top: 3px solid #4793DB !important;
 	margin-top: 10px !important;
