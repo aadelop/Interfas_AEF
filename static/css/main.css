@@ -2,6 +2,7 @@
 	height: 130px;
     width: 1330px;
     position: fixed;
+    z-index: 100;
 }
 #contenido {
 	margin-top: 190px;
